@@ -1,0 +1,17 @@
+:root {
+  color-scheme: light;
+  font-family: system-ui, sans-serif;
+  color: #22343f;
+  background: #f2f6f4;
+}
+body { margin: 0; }
+main { max-width: 37rem; margin: 8vh auto; padding: 2rem 1.25rem; }
+.label { color: #386453; font-size: .9rem; }
+h1 { font-size: clamp(2rem, 7vw, 3.4rem); margin: .25em 0; }
+ul { list-style: none; padding: 0; display: grid; gap: .6rem; margin: 2rem 0 1rem; }
+button {
+  width: 100%; padding: 1rem; border: 1px solid #7c9c8f; border-radius: .6rem;
+  background: #fff; color: inherit; text-align: left; font: inherit; cursor: pointer;
+}
+button:hover, button:focus-visible { outline: 2px solid #386453; outline-offset: 2px; }
+#feedback { min-height: 3rem; font-weight: 600; }

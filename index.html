@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shift handoff drill</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <p class="label">Volunteer operations · Practice scenario</p>
+    <h1>Shift handoff drill</h1>
+    <p>You're taking over the evening shift. Which item needs an owner before the outgoing lead leaves?</p>
+    <ul>
+      <li><button type="button" data-state="done">The supply order was delivered and checked in.</button></li>
+      <li><button type="button" data-state="open">The backup van won’t start and nobody has been assigned to it.</button></li>
+      <li><button type="button" data-state="done">Both closing volunteers confirmed their shifts.</button></li>
+    </ul>
+    <p id="feedback" role="status" aria-live="polite"></p>
+  </main>
+  <script src="drill.js" defer></script>
+</body>
+</html>
